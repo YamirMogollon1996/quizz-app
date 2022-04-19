@@ -4,11 +4,8 @@ import { inital, Reducer, types   } from './types'
 import { BrowserRouter  , Routes ,Route} from "react-router-dom"
 import EditarModal from './EditarModal.js'
 
-
-
-
-
 const CrudReducer = () => {
+
     const [ stado ,  dispacth] =  useReducer( Reducer, inital)
     const [modal, setmodal] =  useState(false)
     const [ editarmodal, seteditarmodal] =  useState(false)
@@ -69,18 +66,13 @@ const CrudReducer = () => {
                                 >editar</button>
                             </td>
                 </tr>)}
-        
-
+    
         </tbody>
-
             </table>
-
-      </div>
-
-      
+      </div>      
       </>
-  )
-  
+  ) 
 }
+
 
 export default CrudReducer

@@ -1,0 +1,69 @@
+.container_2{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    gap: 10px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    object-fit: cover;
+    max-width: 100%;
+}
+.facebook{
+    /* background-color: aqua; */
+    position: absolute;
+    
+    /* width: 500px; */
+}
+.imagen_modal{
+    width: 700px;
+    height: 600px   ;
+    border:  2px solid  rgb(192, 197, 192);
+    /* padding: 2em; */
+
+
+}
+.practica{
+    border-radius: 4px;
+    /* width: 20px; */
+
+}
+.derecha{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    
+
+}
+.celtic , .celtic2 {
+    border-radius: 4px;
+}
+
+.izquierda{
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+    
+}
+/* .facebook img{
+    width: 20px;
+    height: 20px;
+} */
+.click_modal{
+    position: absolute;
+    top: 0;
+}
+.facebook button{
+    background-color: aqua;
+    background:none;
+    color: whiteSmoke;
+    border: none;
+    font-size: 2em;
+}
